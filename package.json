@@ -1,0 +1,20 @@
+{
+  "name": "VR App",
+  "version": "0.1.0",
+  "homepage": "https://gmarriott.github.io/vr-uk-visualization",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "live-server": "^1.2.1"
+  }
+}
